@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100vh;
+    width: 100%;
+    font-family: 'gilroy';
+}
+#main
+{
+    height: 100%;
+    width: 100%;
+    background-color: #3d6342e5; 
+    position: relative;
+}
+#navbar
+{
+    display: flex ;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+   padding: 1rem;
+}
+#navbar h2
+{
+    cursor: pointer;
+}
+#navbar ul
+{
+    display: flex;
+    justify-content: center;
+} 
+#navbar ul li
+{
+    list-style: none;
+}
+#navbar ul li a
+{
+    margin: 4rem;
+    text-decoration: none;
+    color: #fff;
+    font-size:16px;
+}
+#navbar ul li a:hover
+{
+  color: rgb(219, 91, 6);
+}
+#icon1
+{
+    background-color: rgb(219,91,6);
+    border: 10px solid rgb(219, 91, 6);
+    border-radius: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#text
+{
+    /* background-color: red; */
+    width: 25%;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+
+    
+}
+#txt
+{
+    color: #fff;
+    font-size: 30px;
+}
+#para
+{
+    margin-top: 50px;
+    font-size:15px ;
+}
+#button
+{
+    margin-top: 35px;
+    display: flex;
+    
+    cursor: pointer;
+}
+button
+{
+    cursor: pointer;
+    height: 40px;
+    width: 150px;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    background-color:rgb(219, 91, 6);
+    
+}
+#utube
+{
+    border: 5px solid rgb(219,91,6);
+    background-color: rgb(219, 91, 6);
+    border-radius: 50%;
+    margin-left: 20px;
+}
+#button h6
+{
+    margin: 10px;
+    font-size: 13px;
+    color: #fff;
+}
+
+#imgbg
+{
+    height: 65%;
+    width: 35%;
+    background-color: rgba(0, 0, 0, 0.295);
+    position: relative;
+    top: 15%;
+   left: 60%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+#bg2
+{
+    height: 70%;
+    width: 60%;
+    background-color: rgb(219, 91, 6);
+    position: relative; 
+}
+/* img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: 10px solid rgb(219, 91, 6);
+} */
+img
+{
+    height: 140%;
+    width: auto;
+    position: absolute;
+    top: -37%;
+    right: 0%;
+}
