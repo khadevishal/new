@@ -12,7 +12,7 @@ html,body{
 {
     height: 100%;
     width: 100%;
-    background-color: #3d6342e5; 
+    background-image: linear-gradient(to right,grey 40%,rgb(241, 160, 160));
     position: relative;
 }
 #navbar
@@ -26,6 +26,7 @@ html,body{
 #navbar h2
 {
     cursor: pointer;
+    font-family: 'yuji boku regular';
 }
 #navbar ul
 {
